@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "react-portfolio-app-2e5c1"
+  },
+  "targets": {
+    "react-portfolio-app-2e5c1": {
+      "hosting": {
+        "login": [
+          "react-login-signup-7.web.app"
+        ]
+      }
+    }
+  }
+}

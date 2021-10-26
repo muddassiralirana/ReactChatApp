@@ -1,0 +1,15 @@
+.Contacts {
+    padding: 0 !important;
+}
+
+.Contacts-content {
+    min-height: 75vh;
+}
+.Contacts-content h1 {
+    text-align: center;
+}
+
+.Contacts-content .user_card {
+    width: 95%;
+    margin: 10px auto !important;
+}

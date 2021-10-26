@@ -1,0 +1,470 @@
+.Chat {
+    padding: 0 !important;
+    height: 100vh;
+}
+p.sender-name {
+    margin: 0;
+    font-weight: 700;
+    color: black;
+}
+
+p.message-text {
+    margin: 0;
+}
+/* 
+.Chat-content {
+    min-height: 89vh;
+}
+.Chat.container-fluid {
+    height: 100vh;
+} */
+.Chat-Side-Div {
+    width: 25%;
+    overflow: hidden auto;
+    background-color: rgb(147 112 219 / 70%);
+    padding: 10px 0px;
+    z-index: 0;
+    border-right: 1px solid lightgrey;
+}
+
+.Chat-Main-Div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 90vh;
+}
+
+.Chat-Box-Div {
+    width: 75%;
+}
+.User-Div {
+    margin: 5px;
+    background: lightblue;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+img.User-Icon {width: 30px;height: 30px;margin: 5px;border-radius: 100%;}
+
+.User-Div:hover {
+    background-color: #1976d2;
+}
+.msg-profile-pic{
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px;
+    border-radius: 100%;
+}
+.Right-Message {
+    width: 85%;
+    float: right;
+}
+
+.Left-Message {
+    width: 85%;
+    float: left;
+}
+
+span.Message {
+    display: flex;
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Chat-Div {
+    background-color: rgb(147 112 219 / 50%);
+    padding: 5px;
+    height: 71vh;
+    overflow: auto;
+}
+
+div#root {
+    height: 100vh;
+}.Chat-Box-Div>div {
+    min-height: 90vh !important;
+}
+
+.MuiBox-root.css-i9gxme {
+    height: 11vh !important;
+    overflow: auto;
+}
+span.Right-Message-Span {
+    display: flex;
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span.Left-Message-Span {
+    display: flex;
+    background-color: lightpink;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Input-Div {
+    height: 9vh;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: mediumpurple;
+}
+
+input.input {
+    margin: 5px;
+    border-radius: 20px;
+    outline: grey;
+    outline-style: solid;
+    border: 0;
+    width: 75%;
+    padding: 4px 10px;
+}
+
+button.Send {
+    width: 15%;
+    font-weight: 600;
+    background-color: rgb(255 255 255 / 50%);
+    margin: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 3px grey;
+    border: 0;
+    min-width: 50px;
+}
+button.Send:hover {
+    background-color: rgb(255 255 255);
+    text-decoration: none;
+}
+
+.users_sidebar {
+    background-color: #1976d2;
+    width: 100%;
+    height: 90vh;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.dialog-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    color: white;
+    border-color: white;
+    font-weight: 600;
+    margin: 5px;
+}
+.MuiBox-root.css-i9gxme {
+    max-height: 10vh !important;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+}
+
+.container-fluid.Chat-Div {
+    height: 90vh !important;
+}
+
+.row {
+    max-height: 90vh !important;
+}
+
+.col-9 {
+    max-height: 90vh;
+}
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.dialog-btn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: rgb(255 255 255 / 30%);
+}
+.search_bar > input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 5px;
+    color: #fff;
+    display:inline-block;
+    width:80%;
+}
+.User-List {
+    overflow: auto;
+    height: 200px;
+}
+.user-div {
+    height: 30px;
+    margin: 1px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-div:hover {
+    background-color: #8080806e;
+}
+.search_bar > input::placeholder {
+    color: #fff;
+}
+span.icon-span {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+span.icon-span:hover {
+    background-color: rgb(255 255 255 / 50%);
+}
+.search_bar {
+    background-color: rgb(255, 255, 255, 0.3);
+    width: 90%;
+    margin: 0 auto;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.users_list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.user_card {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+.user_card:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.user_card_pic > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.user_data > h6 {
+    margin: 0px;
+}
+
+.my_badge {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_badge > span {
+    color: #000;
+    font-weight: bold;
+}
+
+.user_data {
+    flex: 2;
+}
+
+.user_card:hover .my_badge {
+    background-color: #1976d2;
+    color: #fff !important;
+}
+
+.user_card:hover .my_badge > span {
+    color: #fff;
+}
+.header {
+    box-shadow: 0 0px 10px -2px mediumpurple;
+}
+.chat-header {
+    background-color: rgb(255 255 255 / 10%);
+    height: 10vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.online_dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+    margin-right: 20px;
+}
+
+.icon_box {
+    background-color: #1976d2;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.chat_icons {
+    display: flex;
+}
+
+.username {
+    flex: 2;
+}
+
+.row > div {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.message_box {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.message_input {
+    width: 100%;
+}
+
+.message_input > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 20px 10px;
+}
+
+.icon_box_send {
+    background-color: #1976d2;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.chat_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.messages {
+    padding: 10px;
+    overflow: auto;
+    height: 550px !important;
+}
+
+.message_left > div > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.message_left > .user_message {
+    font-size: 14px;
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+}
+
+.message_arrow {
+    background-color: #1976d2;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 15px;
+    left: -6px;
+    transform: rotate(45deg);
+}
+
+.message_left {
+    display: flex;
+    margin-top: 10px;
+}
+
+.message_arrow_right {
+    background-color: #f1f1f1;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 15px;
+    right: -6px;
+    transform: rotate(45deg);
+}
+
+.message_right_image {
+    margin-left: 10px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message_right {
+    justify-content: flex-end;
+}
+
+.message_right > .user_message {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.selected-users {
+    border-bottom: 2px solid grey;
+    height: 80px;
+    margin: 10px 0px;
+    overflow: auto;
+}
+
+button.remove {
+    border: 1px outset grey;
+    background: red;
+    color: white;
+    border-radius: 10px;
+}
+
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionStatic.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: mediumpurple;
+}
+.Chat-Div-Dark {
+    background-color: #4d5052 !important;
+}
+
+.Chat-Side-Div-Dark {
+    background-color: #3e3e3e;
+}
+
+.Input-Div-Dark {
+    background-color: #3e3e3e;
+}

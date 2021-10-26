@@ -1,0 +1,24 @@
+img.bgPic {
+    height: 200px;
+    width: 100%;
+}
+
+img.profilePic {
+    width: 200px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+    transform: translate(0px, -50%);
+    margin: 0px auto;
+    border: 5px solid dodgerblue;
+}
+
+hr {border: 1px solid grey;}
+
+.name-div {
+    position: relative;
+    width: 70vw;
+    margin: 10px auto;
+    text-align: center;
+    top: -100px;
+}
